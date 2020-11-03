@@ -42,7 +42,8 @@
 <p><span>Test 2 : ANSI.c</span></p>
 <p><span><img alt="" height="600" src="/images/ansic.jpg" width="400"/></span></p>
 <h3>何謂ANSIC</h3>
-<p><strong>ANSIC</strong>是指美國國家標準協會(ANSI)<strong>對C語言的標準</strong>，而另一個<strong>ISOC</strong>則是國際標準化組織(ISO)的標準</p><h1>上課作業</h1>
+<p><strong>ANSIC</strong>是指美國國家標準協會(ANSI)<strong>對C語言的標準</strong>，而另一個<strong>ISOC</strong>則是國際標準化組織(ISO)的標準</p>
+<h1>上課作業</h1>
 <p><img alt="" height="277" src="/images/tenor (1).gif" width="498"/></p>
 <h2>HW1</h2>
 <p><br/>利用Inventor 2020與Solidwork 2017來比對<a href="http://mde.tw/cad2020/downloads/Solidworks%20%E9%9B%B6%E4%BB%B6%E7%B9%AA%E5%9C%96%E7%B7%B4%E7%BF%921.pdf">Solidworks 零件繪圖練習1.pdf</a>在不同繪圖軟體是否有不同</p>
@@ -52,3 +53,11 @@
 <h2>HW2</h2>
 <p>先以<span>Inventor繪出立體圖，再</span>利用 FOR迴圈 產生<span>64 個不同尺寸組合的零件</span></p>
 <p><iframe height="600" src="https://mde.tw/dartpad/?id=effb08bed617318b6c7c29df183a2c93" width="800"></iframe></p>
+<h1>錯誤修正</h1>
+<h2>TCC Start.bat 路徑修正</h2>
+<p>在設定Start.bat時</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">path=%Disk%:;%path_python%;%path_portablegit%;%path_julia%;%path_tcc%;%path_gnuplot%;%path%;</pre>
+<p>不能與</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">path=%Disk%:;%path_python%;%path_git%;</pre>
+<p>合併在一起，否則TCC會無法運作</p>
+<p><img alt="" height="600" src="/images/start.jpg" width="400"/></p>
